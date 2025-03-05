@@ -33,7 +33,7 @@ vector.exe:
 
 ### C#
 array.exe:
-- X ms
+- 115 ms
 
 array_parallel.exe:
 - 86 ms - 91 ms
