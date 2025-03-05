@@ -10,6 +10,6 @@ The array tests use a for loop from 0 to 100_000_000 and push to an array.
 **Javascript (Deno)** ~1 second<br/>
 **Rust** ~0.3 seconds<br/>
 
-Winner: Rust
+Winner: **Rust**
 
 
