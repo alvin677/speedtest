@@ -6,8 +6,8 @@
 //#pragma comment(linker, "/STACK:400000024")
 int main()
 {
-    std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
     std::vector<int> array = std::vector<int>();
+    std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
     for (int i = 0; i < 100000000; i++) {
         array.push_back(i);
     }
