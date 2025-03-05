@@ -39,7 +39,7 @@ array_parallel.exe:
 - 86 ms - 91 ms
 
 list.exe: (`List<int>` = a dynamic array list)
-- X ms
+- 350 - 420 ms
 
 ### JS
 Chrome browser:
