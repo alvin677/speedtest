@@ -8,7 +8,7 @@ int main()
     std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
     int arr[100000000];
     for (int i = 0; i < 100000000; i++) {
-        arr[i] = 1;
+        arr[i] = i;
     }
     std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
     auto d_nano = std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count();
