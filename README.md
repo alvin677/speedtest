@@ -42,7 +42,7 @@ list.exe: (`List<int>` = a dynamic array list)
 - 350 - 420 ms
 
 ### JS
-Chrome browser:
+Chrome browser v133.0.0.0:
 - 605 ms - 713 ms
 
 NodeJS v18.7.0:
