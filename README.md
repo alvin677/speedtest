@@ -19,3 +19,38 @@ Rust test was done on Rust's playground on their website (with release build for
 Winner: **Rust**
 
 
+## AMD Ryzen 5 5600X | Windows 10 v19045.5487
+### C++ x86
+
+array.exe:
+- 200 - 600 ns on release build
+- <60 ms on debug build
+
+vector.exe:
+- ~280 ms on release build
+
+### C#
+array.exe:
+- X ms
+
+array_parallel.exe:
+- X ms
+
+list.exe: (`List<int>` = a dynamic array list)
+- X ms
+
+### JS
+Chrome browser:
+- 605 ms - 713 ms
+
+NodeJS v18.7.0:
+- 1580 ms - 1600 ms
+
+Deno v2.2.3:
+- 781 ms - 791 ms
+
+Bun v1.2.4:
+- 472 ms - 481 ms
+
+### Python v3.13.2
+- X ms
