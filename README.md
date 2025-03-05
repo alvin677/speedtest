@@ -20,6 +20,8 @@ Winner: **Rust**
 
 
 ## AMD Ryzen 5 5600X | Windows 10 v19045.5487
+### Rust
+- X ms
 ### C++ x86
 
 array.exe:
@@ -53,4 +55,4 @@ Bun v1.2.4:
 - 472 ms - 481 ms
 
 ### Python v3.13.2
-- X ms
+- 5.66 - 6.1 (most cases) - 7.1 s
