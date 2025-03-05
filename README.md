@@ -36,7 +36,7 @@ array.exe:
 - X ms
 
 array_parallel.exe:
-- X ms
+- 86 ms - 91 ms
 
 list.exe: (`List<int>` = a dynamic array list)
 - X ms
