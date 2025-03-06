@@ -10,7 +10,7 @@ The array tests use a for loop from 0 to 100_000_000 and push to an array.
 
 ### AMD Ryzen 5 PRO 5650U (w. Radeon Graphics) | Windows 10 v19045.5487
 **Python**: ~6-7 seconds.<br/>
-**Javascript (Deno)**: ~1.05 second.<br/>
+**Javascript (Deno)**: ~1.05 seconds.<br/>
 **Javascript (Bun)**: ~0.56 seconds.<br/>
 **Rust**: ~0.3 seconds.   *Rust test was done on Rust's playground on their website (with release build for max optimization)*<br/>
 
