@@ -8,10 +8,10 @@ Consider trying out yourself on your machine as well, see what results you can a
 ## Array
 The array tests use a for loop from 0 to 100_000_000 and push to an array.
 
-### Cedric's tests with an AMD Ryzen 5 PRO 5650U (w. Radeon Graphics) | Windows 10 v19045.5487
-**Python**: ~6-7 seconds<br/>
-**Javascript (Deno)**: ~1 second<br/>
-**Rust**: ~0.3 seconds   *Rust test was done on Rust's playground on their website (with release build for max optimization)*<br/>
+### AMD Ryzen 5 PRO 5650U (w. Radeon Graphics) | Windows 10 v19045.5487
+**Python**: ~6-7 seconds.<br/>
+**Javascript (Deno)**: ~1 second.<br/>
+**Rust**: ~0.3 seconds.   *Rust test was done on Rust's playground on their website (with release build for max optimization)*<br/>
 
 ### Jonny's tests with an AMD Ryzen 5 5600X | Windows 10 v19045.5487
 **Rust**: - 175 - 193 - 199 (most common) - 200 ms
