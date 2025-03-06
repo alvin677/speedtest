@@ -8,21 +8,14 @@ Consider trying out yourself on your machine as well, see what results you can a
 ## Array
 The array tests use a for loop from 0 to 100_000_000 and push to an array.
 
-**Hardware**<br/>
-Python and Javascript tests were done on an **AMD Ryzen 5 PRO 5650U** (w. Radeon Graphics)<br/>
-Rust test was done on Rust's playground on their website (with release build for max optimization).
+### Cedric's tests with an AMD Ryzen 5 PRO 5650U (w. Radeon Graphics) | Windows 10 v19045.5487
+**Python**: ~6-7 seconds<br/>
+**Javascript (Deno)**: ~1 second<br/>
+**Rust**: ~0.3 seconds   *Rust test was done on Rust's playground on their website (with release build for max optimization)*<br/>
 
-**Python** ~6-7 seconds<br/>
-**Javascript (Deno)** ~1 second<br/>
-**Rust** ~0.3 seconds<br/>
-
-Winner: **Rust**
-
-
-## AMD Ryzen 5 5600X | Windows 10 v19045.5487
-### Rust
-- 175 - 193 - 199 (most common) - 200 ms
-### C++ x86
+### Jonny's tests with an AMD Ryzen 5 5600X | Windows 10 v19045.5487
+**Rust**: - 175 - 193 - 199 (most common) - 200 ms
+#### C++ x86
 
 array.exe:
 - 200 - 600 ns on release build
@@ -31,7 +24,7 @@ array.exe:
 vector.exe:
 - ~280 ms on release build
 
-### C#
+#### C#
 array.exe:
 - 115 ms
 
@@ -41,7 +34,7 @@ array_parallel.exe:
 list.exe: (`List<int>` = a dynamic array list)
 - 350 - 420 ms
 
-### JS
+#### JS
 Chrome browser v133.0.0.0:
 - 605 ms - 713 ms
 
