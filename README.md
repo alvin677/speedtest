@@ -58,7 +58,7 @@ Bun v1.2.4:
 
 ## Webserver (with no logic)
 <details>
-<summary>The webserver tests are about running a basic webserver in different languages</summary>
+<summary>The webserver tests use a basic webserver and checking the amount of traffic it can handle</summary>
 For C# we are using Kestrel, similar to this (but with way less features, so that it matches the code in the other languages): https://github.com/alvin677/JonCsWebServer  
 For Rust we are using Actix.
 
