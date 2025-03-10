@@ -8,7 +8,8 @@ See below for tests. Hardware might differ slightly between multiple tests but i
 Consider trying out yourself on your machine as well, see what results you can achieve.
 
 ## Array
-The array tests use a for loop from 0 to 100_000_000 and push to an array.
+<details>
+<summary>The array tests use a for loop from 0 to 100_000_000 and push to an array.</summary>
 
 ### AMD Ryzen 5 PRO 5650U (w. Radeon Graphics) | Windows 10 v19045.5487
 **Python**: ~6-7 seconds.<br/>
@@ -53,8 +54,11 @@ Bun v1.2.4:
 
 ### Python v3.13.2
 - 5.66 - 6.1 (most cases) - 7.1 s
+</details>
 
 ## Webserver (with no logic)
+<details>
+<summary>The webserver tests are about running a basic webserver in different languages</summary>
 For C# we are using Kestrel, similar to this (but with way less features, so that it matches the code in the other languages): https://github.com/alvin677/JonCsWebServer  
 For Rust we are using Actix.
 
@@ -111,3 +115,4 @@ Deno v2.1.4: Avg 38k req/s
 
 running (0m30.1s), 0000/2400 VUs, 1147027 complete and 0 interrupted iterations
 ```
+</details>
