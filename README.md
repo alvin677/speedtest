@@ -54,6 +54,9 @@ Bun v1.2.4:
 
 ### Python v3.13.2
 - 5.66 - 6.1 (most cases) - 7.1 s
+
+### Zig v0.15.0
+- ~2.8 s
 </details>
 
 ## Webserver (with no logic)
