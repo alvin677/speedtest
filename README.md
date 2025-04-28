@@ -52,11 +52,15 @@ Deno v2.2.3:
 Bun v1.2.4:
 - 472 ms - 481 ms
 
-### Python v3.13.2
+Python v3.13.2
 - 5.66 - 6.1 (most cases) - 7.1 s
 
-### Zig v0.15.0
+Zig v0.15.0
 - ~2.8 s
+
+### Intel Xeon E5-2680 V4 | debian 6.1.0-17-amd64 / Debian 6.1.69-1 (2023-12-30)
+array.php:
+- 3.82 seconds
 </details>
 
 ## Webserver (with no logic)
