@@ -61,6 +61,7 @@ Zig v0.15.0
 ### Intel Xeon E5-2680 V4 | debian 6.1.0-17-amd64 / Debian 6.1.69-1 (2023-12-30)
 array.php:
 - ~3.68 - 3.82 seconds
+
 array2.php:
 - ~2 - 2.75 seconds
 </details>
