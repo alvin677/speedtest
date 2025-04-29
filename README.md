@@ -74,10 +74,10 @@ Bun v1.1.38:
 Bun v1.2.11:
 - 2293 ms - 2307 ms - 2320 ms - 2356 ms - 2379 ms
 
-array.php:
+array.php (PHP-FPM 8.2):
 - ~3.68 - 3.82 seconds
 
-array2.php:
+array2.php (PHP-FPM 8.2):
 - ~2 - 2.75 seconds
 </details>
 
