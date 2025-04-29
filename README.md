@@ -59,6 +59,15 @@ Zig v0.15.0
 - ~2.8 s
 
 ### Intel Xeon E5-2680 V4 | debian 6.1.0-17-amd64 / Debian 6.1.69-1 (2023-12-30)
+NodeJS v22.14.0:
+- 2812 ms - 3458 ms
+
+Deno v2.1.4:
+- 3086 ms - 3837 ms
+
+Bun 1.1.38:
+- 2299 ms - 2363 ms
+
 array.php:
 - ~3.68 - 3.82 seconds
 
