@@ -64,9 +64,13 @@ NodeJS v22.14.0:
 
 Deno v2.1.4:
 - 3086 ms - 3837 ms
+Deno v2.2.12
+- 2857 ms - 2913 ms - 3106 ms - 3349 ms - 3660 ms - 3749 ms (slight improvement!)
 
-Bun 1.1.38:
+Bun v1.1.38:
 - 2299 ms - 2363 ms
+Bun v1.2.11:
+- 2293 ms - 2307 ms - 2320 ms - 2356 ms - 2379 ms
 
 array.php:
 - ~3.68 - 3.82 seconds
